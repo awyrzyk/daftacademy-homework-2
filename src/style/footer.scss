@@ -1,0 +1,22 @@
+@import "variables";
+@import "mixin";
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  color: $color-darkgray;
+  padding: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+  flex-grow: 1;
+  @include for-xs-screen{
+    flex-direction: column;
+  }
+  &__icon {
+    color: $color-darkgray;
+  }
+
+  &__link {
+    color: $color-black;
+  }
+}

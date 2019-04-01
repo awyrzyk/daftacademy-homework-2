@@ -1,0 +1,24 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  justify-content: space-between;
+  padding: 80px;
+  padding-top: 0;
+  margin-right: 3vw;
+  margin-left: 3vw;
+  margin-top: 10px;
+
+  @include for-xs-screen{
+    padding: 10px;
+  }
+  &::-webkit-scrollbar {
+    width: 6px;
+    padding-top: 40px;
+  }
+
+  &::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: $color-darkgray;
+  }
+}

@@ -1,0 +1,23 @@
+@mixin for-md-screen {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin for-sm-screen {
+  @media (max-width: 900px) {
+    @content;
+  }
+}
+
+@mixin for-smplus-screen {
+  @media (max-width: 1000px) {
+    @content;
+  }
+}
+
+@mixin for-xs-screen {
+  @media (max-width: 600px) {
+    @content;
+  }
+}

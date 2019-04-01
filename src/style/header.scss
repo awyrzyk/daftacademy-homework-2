@@ -1,0 +1,14 @@
+.header {
+  position: absolute;
+  bottom: 100%;
+
+  &__title {
+    font-family: $font-title;
+    font-size: $font-big;
+    border: 2px solid black;
+    margin-left: 1vw;
+    padding: 0px 20px;
+    transform: translateY(50%);
+    z-index: $zindex-header__title;
+  }
+}

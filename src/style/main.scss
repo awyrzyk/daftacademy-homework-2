@@ -1,0 +1,39 @@
+//$fa-font-path: "~font-awesome/fonts";
+//@import '~font-awesome/scss/font-awesome.scss';
+@import "variables";
+@import "footer";
+@import "drink";
+@import "grid";
+@import "navbar";
+@import "menu";
+@import "header";
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: $color-white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: $font-common;
+  font-size: $font-small;
+}
+
+.main {
+  background-color: $color-gray;
+  padding-top: 80px;
+  margin-top: 10vh;
+  position: relative;
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+
+

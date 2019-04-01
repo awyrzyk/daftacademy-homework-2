@@ -1,0 +1,18 @@
+.menu{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+
+  @include for-smplus-screen {
+    flex-direction: column;
+  }
+
+  .menu__category--first{
+    color: $color-black;
+  }
+
+  .menu__category:not(.menu__category--first){
+    color: $color-darkgray;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,9 @@
+.navbar{
+  padding-left: 80px;
+  padding-right: 10px;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  @include for-xs-screen{
+    padding: 0;
+  }
+}
